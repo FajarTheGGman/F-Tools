@@ -19,7 +19,7 @@ def main():
 			sys.exit()
 
 		else:
-			print "\n\033[1;36mPassword nya salah\033[00m"
+			print "\n\033[1;36mUsername atau password salah !!!\033[00m"
 			print "Back Login\n"
 			restart()
 
