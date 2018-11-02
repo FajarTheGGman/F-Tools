@@ -29,7 +29,7 @@ echo $green "6.> matrix"
 echo $green "7.> RED_HAWK"
 echo $green "8.> bingoo buat dorking"
 echo $green "9.> OSIF (open source information facebook)"
-echo $green "10.> "Lazymux Tools"
+echo $green "10.> Lazymux Tools"
 echo $green "00.> exit"
 echo "\033[32;1m"
 read -p "root@F-Tools-#" bro
