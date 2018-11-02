@@ -30,7 +30,10 @@ echo $green "7.> RED_HAWK"
 echo $green "8.> bingoo buat dorking"
 echo $green "9.> OSIF (open source information facebook)"
 echo $green "10.> Lazymux Tools"
-echo $green "00.> exit"
+echo $green "11.> Mempercepat Koneksi internet"
+echo $green "12.> admin panel login panel finder"
+echo $green "13.> Metasploit"
+echo $green "0.> exit"
 echo "\033[32;1m"
 read -p "root@F-Tools-#" bro
 
@@ -149,10 +152,43 @@ mv -f Lazymux $HOME
 cd $HOME/Lazymux
 fi
 
-if [ $bro = 00 ] || [ $bro = 00 ]
+if [ $bro = 11 ] || [ $bro = 11 ]
+then
+clear
+figlet Connecting
+ping www.google.com
+fi
+
+if [ $bro = 12 ] || [ $bro = 12 ]
+then
+clear
+figlet Installing
+apt update&&apt upgrade -y
+pkg install git -y
+pkg install python2
+git clone https://github.com/Gameye98/APAFI
+mv -f APAFI $HOME
+cd $HOME/APAFI
+python2 apafi.py
+fi
+
+if [ $bro = 13 ] || [ $bro = 13 ]
+then
+clear
+figlet Installing
+apt update&&apt upgrade -y
+pkg install git -y
+git clone https://github.com/4L13199/meTAInstall
+mv -f meTAInstall $HOME
+cd $HOME/meTAInstall
+chmod +x meTAInstall
+sh meTAInstall
+gem install nokogiri -v 1.8.0
+fi
+
+if [ $bro = 0 ] || [ $bro = 00 ]
 then
 echo "\033[37;1mTerimakasih telah meggunakan tools ini :)"
-echo "\033[37;1mRecode Gua Bacok Lo !!!!!"
 sleep 1
-exit
+echo "\033[37;1mRecode Gua Bacok Lo !!!!!"
 fi
