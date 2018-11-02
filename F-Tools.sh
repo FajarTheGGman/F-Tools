@@ -1,5 +1,6 @@
 #!/system/xbin/bash
 clear
+pkg install figlet -y
 python2 password.py
 blue='\033[34;1m'
 green='\033[32;1m'
@@ -27,7 +28,9 @@ echo $green "5.> nmap"
 echo $green "6.> matrix"
 echo $green "7.> RED_HAWK"
 echo $green "8.> bingoo buat dorking"
-echo $green "0.> exit"
+echo $green "9.> OSIF (open source information facebook)"
+echo $green "10.> "Lazymux Tools"
+echo $green "00.> exit"
 echo "\033[32;1m"
 read -p "root@F-Tools-#" bro
 
@@ -71,7 +74,7 @@ then
 clear
 figlet Installing
 apt update&&apt upgrade -y
-pkg install python python2 -y 
+pkg install python python2 -y
 pip2 install mechanize -y
 pkg install git -y
 git clone https://github.com/Senitopeng/fbbrute
@@ -103,12 +106,12 @@ figlet Installing
 apt update&&apt upgrade -y
 pkg install git -y
 pkg install php -y
-git clone https://github.com/Tuhinshubhra/RED_HAWK 
+git clone https://github.com/Tuhinshubhra/RED_HAWK
 mv -f RED_HAWK $HOME
 cd $HOME/RED_HAWK
 fi
 
-if [ $bro = 8 ] || [ $bro = 8 ] 
+if [ $bro = 8 ] || [ $bro = 8 ]
 then
 clear
 figlet Installing
@@ -122,9 +125,34 @@ mv -f BinGoo $HOME
 cd $HOME/BinGoo
 fi
 
-if [ $bro = 0 ] || [ $bro = 0 ]
+if [ $bro = 9 ] || [ $bro = 9 ]
+then
+clear
+figlet Installing
+apt update&&apt upgrade -y
+pkg install git -y
+pkg install python2 -y
+pip2 install requests
+git clone https://github.com/CiKu370/OSIF
+mv -f OSIF $HOME
+cd $HOME/OSIF
+fi
+
+if [ $bro = 10 ] || [ $bro = 10 ]
+then
+clear
+figlet Installing
+apt update&&apt upgrade -y
+pkg install python2 git -y
+git clone https://github.com/Gameye98/Lazymux
+mv -f Lazymux $HOME
+cd $HOME/Lazymux
+fi
+
+if [ $bro = 00 ] || [ $bro = 00 ]
 then
 echo "\033[37;1mTerimakasih telah meggunakan tools ini :)"
+echo "\033[37;1mRecode Gua Bacok Lo !!!!!"
 sleep 1
-exit 
+exit
 fi
