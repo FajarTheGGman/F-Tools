@@ -33,6 +33,8 @@ echo $green "10.> Lazymux Tools"
 echo $green "11.> Mempercepat Koneksi internet"
 echo $green "12.> admin panel login panel finder"
 echo $green "13.> Metasploit"
+echo $green "14.> txtool"
+echo $green "15.> Hash Killer"
 echo $green "0.> exit"
 echo "\033[32;1m"
 read -p "root@F-Tools-#" bro
@@ -184,6 +186,31 @@ cd $HOME/meTAInstall
 chmod +x meTAInstall
 sh meTAInstall
 gem install nokogiri -v 1.8.0
+fi
+
+if [ $bro = 14 ] || [ $bro = 14 ]
+then
+clear
+figlet Installing
+apt update&&apt upgrade -y
+pkg install git -y
+pkg install python2 -y
+pip2 install bs4 pynac1 requests paramiko
+git clone https://github.com/kuburan/txtool
+mv -f txtool $HOME
+cd $HOME/txtool
+fi
+
+if [ $bro = 15 ] || [ $bro = 15 ]
+then
+clear
+figlet Installing
+apt update&&apt upgrade -y
+pkg install python2 -y
+pkg install git -y
+git clone https://github.com/unknwhp/HashKiller
+mv -f HashKiller $HOME
+cd $HOME/HashKiller
 fi
 
 if [ $bro = 0 ] || [ $bro = 00 ]
