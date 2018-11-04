@@ -11,6 +11,15 @@ white='\033[37;1m'
 yellow='\033[33;1m'
 sleep 1
 toilet F-Tools --gay
+echo " /$$$$$$$$   /$$$$$$$$ /$$$$$$   /$$$$$$  /$$        /$$$$$$ "
+echo "| $$_____/  |__  $$__//$$__  $$ /$$__  $$| $$       /$$__  $$"
+echo "| $$           | $$  | $$  \ $$| $$  \ $$| $$      | $$  \__/"
+echo "| $$$$$ /$$$$$$| $$  | $$  | $$| $$  | $$| $$      |  $$$$$$ "
+echo "| $$__/|______/| $$  | $$  | $$| $$  | $$| $$       \____  $$"
+echo "| $$           | $$  | $$  | $$| $$  | $$| $$       /$$  \ $$"
+echo "| $$           | $$  |  $$$$$$/|  $$$$$$/| $$$$$$$$|  $$$$$$/"
+echo "|__/           |__/   \______/  \______/ |________/ \______/ "
+echo ""
 echo ""
 echo "\033[34;1m[$]\033[36;1m============================\033[34;1m[$]"
 echo "\033[36;1mCoder : Fajar Firdaus"
@@ -35,6 +44,7 @@ echo $green "12.> admin panel login panel finder"
 echo $green "13.> Metasploit"
 echo $green "14.> txtool"
 echo $green "15.> Hash Killer"
+echo $green "16.> Bot Komen FB"
 echo $green "0.> exit"
 echo "\033[32;1m"
 read -p "root@F-Tools-#" bro
@@ -211,6 +221,19 @@ pkg install git -y
 git clone https://github.com/unknwhp/HashKiller
 mv -f HashKiller $HOME
 cd $HOME/HashKiller
+fi
+
+if [ $bro = 16 ] || [ $bro = 16 ]
+then
+clear
+figlet installing
+apt update&&apt upgrade -y
+pkg install git -y
+pkg install python2
+git clone https://github.com/Senitopeng/KomenTarget
+mv -f KomenTarget $HOME
+cd $HOME/KomenTarget
+python2 Komen.py
 fi
 
 if [ $bro = 0 ] || [ $bro = 00 ]
