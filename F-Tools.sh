@@ -1,4 +1,5 @@
 #!/system/xbin/bash
+#import os
 clear
 pkg install figlet -y
 python2 password.py
@@ -36,6 +37,7 @@ echo $green "13.> Metasploit"
 echo $green "14.> txtool"
 echo $green "15.> Hash Killer"
 echo $green "16.> Bot Komen FB"
+echo $green "17> Oh-My-Zsh Shell"
 echo $green "0.> exit"
 echo "\033[32;1m"
 read -p "root@F-Tools-#" bro
@@ -217,7 +219,7 @@ fi
 if [ $bro = 16 ] || [ $bro = 16 ]
 then
 clear
-figlet installing
+figlet Installing
 apt update&&apt upgrade -y
 pkg install git -y
 pkg install python2
@@ -225,6 +227,18 @@ git clone https://github.com/Senitopeng/KomenTarget
 mv -f KomenTarget $HOME
 cd $HOME/KomenTarget
 python2 Komen.py
+fi
+
+if [ $bro = 17 ] || [ $bro = 17 ]
+then
+clear
+figlet Installing
+apt update&&apt upgrade -y
+pkg install git -y
+git clone https://github.com/Cabbagec/termux-ohmyzsh
+mv -f termux-ohmyzsh $HOME
+cd $HOME/termux-ohmyzsh
+sh install.sh
 fi
 
 if [ $bro = 0 ] || [ $bro = 00 ]
