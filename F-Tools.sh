@@ -1,4 +1,5 @@
 #!/system/bin/bash
+#import sys os
 clear
 pkg install figlet -y
 python2 password.py
@@ -36,6 +37,8 @@ echo $green "13.> Metasploit"
 echo $green "14.> txtool"
 echo $green "15.> Hash Killer"
 echo $green "16.> Bot Komen FB"
+echo $green "17.> Script-Deface-Creator"
+ehco $green "18.> Install Ngrok"
 echo $green "0.> exit"
 echo "\033[32;1m"
 read -p "root@F-Tools-#" bro
@@ -225,6 +228,33 @@ git clone https://github.com/Senitopeng/KomenTarget
 mv -f KomenTarget $HOME
 cd $HOME/KomenTarget
 python2 Komen.py
+fi
+
+if [ $brp = 17 ] || [ $bro = 17 ]
+then
+clear
+figlet Installing
+apt update&&apt upgrade -y
+pkg install python python2 -y
+pkg install git -y
+git clone https://github.com/Ubaii/script-deface-creator
+mv -f script-deface-creator $HOME
+cd $HOME/script-deface-creator
+python2 create.py
+fi
+
+if [ $bro = 18 ] || [ $bro = 18 ]
+then
+clear
+apt update&&apt upgrade -y
+figlet Installing
+pkg install unzip -y
+pkg install wget -y
+wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip
+mv ngrok-stable-linux-arm.zip $HOME
+cd $HOME
+unzip ngrok-stable-linux-arm.zip
+./ngrok
 fi
 
 if [ $bro = 0 ] || [ $bro = 00 ]
