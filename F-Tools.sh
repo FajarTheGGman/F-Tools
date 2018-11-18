@@ -38,7 +38,7 @@ echo $green "14.> txtool"
 echo $green "15.> Hash Killer"
 echo $green "16.> Bot Komen FB"
 echo $green "17.> Script-Deface-Creator"
-ehco $green "18.> Install Ngrok"
+echo $green "18.> Install Ngrok"
 echo $green "0.> exit"
 echo "\033[32;1m"
 read -p "root@F-Tools-#" bro
