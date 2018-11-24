@@ -278,9 +278,9 @@ if [ $bro = 19 ] || [ $bro = 19 ]
 then
 pkg install wget -y
 termux-setup-storage
-wget https://www85.zippyshare.com/d/7ZmTXBkW/395/HTTP%20Injector%20SSH%20Proxy%20VPN_v4.4.0_apkpure.com.apk
-mkdir /storage/emulated/0/F-Tools
-mv HTTP Injector SSH Proxy VPN_v4.4.0_apkpure.com.apk /storage/emulated/0/F-Tools
+cd /storage/emulated/0
+mkdir F-Tools
+wget https://www22.zippyshare.com/d/QUPm4FdB/734/HTTP%20Injector%20SSH%20Proxy%20VPN_v4.4.0_apkpure.com.apk
 echo "<==================================================>"
 echo "Download Selesai !!!!"
 echo "Tinggal buka memory internal terus buka folder F-Tools"
