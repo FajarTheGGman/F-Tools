@@ -281,7 +281,7 @@ termux-setup-storage
 cd /storage/emulated/0
 mkdir F-Tools
 cd F-Tools
-curl https://www48.zippyshare.com/d/k0xLFS1v/720/injector.txt 
+curl https://www48.zippyshare.com/d/k0xLFS1v/720/injector.txt --output /storage/emulated/0/F-Tools 
 mv injector.txt injector.apk
 echo "<==================================================>"
 echo "Download Selesai !!!!"
