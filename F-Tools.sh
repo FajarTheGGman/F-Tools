@@ -28,6 +28,7 @@ echo "\033[34;1m[$]\033[36;1m============================\033[34;1m[$]"
 echo ""
 echo "Silahkan Pilih Tools :)"
 echo "\033[32;1m"
+echo $white "U.> Update F-Tools"
 echo $green "1.> sqlmap"
 echo $green "2.> spamsms"
 echo $green "3.> scanner-inurlbr"
@@ -46,9 +47,18 @@ echo $green "15.> Hash Killer"
 echo $green "16.> Bot Komen FB"
 echo $green "17.> Script-Deface-Creator"
 echo $green "18.> Install Ngrok"
+echo $green "19.> Download Http injector"
 echo $green "0.> exit"
 echo "\033[32;1m"
 read -p "root@F-Tools-#" bro
+
+if [ $bro = U ] || [ $bro = U ]
+then
+apt update&&apt upgrade
+pkg install git
+git clone http://github.com/FajarTheGGman/F-Tools
+cd F-Tools
+fi
 
 if [ $bro = 1 ] || [ $bro =1 ]
 then
@@ -262,6 +272,19 @@ mv ngrok-stable-linux-arm.zip $HOME
 cd $HOME
 unzip ngrok-stable-linux-arm.zip
 ./ngrok
+fi
+
+if [ $bro = 19 ] || [ $bro = 19 ]
+then
+pkg install wget -y
+termux-setup-storage
+wget https://www85.zippyshare.com/d/7ZmTXBkW/395/HTTP%20Injector%20SSH%20Proxy%20VPN_v4.4.0_apkpure.com.apk
+mkdir /storage/emulated/0/F-Tools
+mv HTTP Injector SSH Proxy VPN_v4.4.0_apkpure.com.apk /storage/emulated/0/F-Tools
+echo "<==================================================>"
+echo "Download Selesai !!!!"
+echo "Tinggal buka memory internal terus buka folder F-Tools"
+echo "<==================================================>"
 fi
 
 if [ $bro = 0 ] || [ $bro = 00 ]
