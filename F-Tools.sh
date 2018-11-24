@@ -48,6 +48,7 @@ echo $green "16.> Bot Komen FB"
 echo $green "17.> Script-Deface-Creator"
 echo $green "18.> Install Ngrok"
 echo $green "19.> Download Http injector"
+echo $green "20.> Auxscan"
 echo $green "0.> exit"
 echo "\033[32;1m"
 read -p "root@F-Tools-#" bro
@@ -276,18 +277,28 @@ fi
 
 if [ $bro = 19 ] || [ $bro = 19 ]
 then
-pkg install curl -y
+pkg install wget -y
 termux-setup-storage
 cd /storage/emulated/0
 mkdir F-Tools
 cd F-Tools
-curl https://www48.zippyshare.com/d/k0xLFS1v/720/injector.txt --output /storage/emulated/0/F-Tools 
+wget https://www48.zippyshare.com/d/k0xLFS1v/720/injector.txt
 mv injector.txt injector.apk
 echo "<==================================================>"
 echo "Download Selesai !!!!"
 echo "Tinggal buka memory internal terus buka folder F-Tools"
 echo "<==================================================>"
 fi
+
+if [ $bro = 20 ] || [ $bro = 20 ]
+then
+apt update&&apt upgrade -y
+pkg install git -y
+pkg install python2
+git clone https://github.com/Gameye98/Auxscan
+cd Auxscan
+python2 auxscan.py
+fi 
 
 if [ $bro = 0 ] || [ $bro = 00 ]
 then
