@@ -276,12 +276,12 @@ fi
 
 if [ $bro = 19 ] || [ $bro = 19 ]
 then
-pkg install wget -y
+pkg install curl -y
 termux-setup-storage
 cd /storage/emulated/0
 mkdir F-Tools
 cd F-Tools
-wget https://www48.zippyshare.com/d/k0xLFS1v/720/injector.txt
+curl https://www48.zippyshare.com/d/k0xLFS1v/720/injector.txt 
 mv injector.txt injector.apk
 echo "<==================================================>"
 echo "Download Selesai !!!!"
