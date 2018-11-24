@@ -280,8 +280,9 @@ pkg install wget -y
 termux-setup-storage
 cd /storage/emulated/0
 mkdir F-Tools
-wget https://www51.zippyshare.com/d/OTBjl3kc/264/HTTP%20Injector%20SSH%20Proxy%20VPN_v4.4.0_apkpure.com.txt
-mv HTTP Injector SSH Proxy VPN_v4.4.0_apkpure.com.txt HTTP Injector SSH Proxy VPN_v4.4.0_apkpure.com.apk
+cd F-Tools
+wget https://www48.zippyshare.com/d/k0xLFS1v/720/injector.txt
+mv injector.txt injector.apk
 echo "<==================================================>"
 echo "Download Selesai !!!!"
 echo "Tinggal buka memory internal terus buka folder F-Tools"
