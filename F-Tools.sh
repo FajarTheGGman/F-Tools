@@ -49,6 +49,7 @@ echo $green "17.> Script-Deface-Creator"
 echo $green "18.> Install Ngrok"
 echo $green "19.> Download Http injector"
 echo $green "20.> Auxscan"
+echo $green "21.> Upload File di upfile"
 echo $green "0.> exit"
 echo "\033[32;1m"
 read -p "root@F-Tools-#" bro
@@ -300,7 +301,16 @@ cd Auxscan
 python2 auxscan.py
 fi 
 
-if [ $bro = 0 ] || [ $bro = 00 ]
+if [ $bro = 21 ] || [ $bro = 21 ]
+then 
+clear 
+figlet Upfile --gay 
+pkg install python2 
+pip2 install requests 
+python2 upfile.py
+fi
+
+if [ $bro = 0 ] || [ $bro = 0 ]
 then
 echo "\033[37;1mTerimakasih telah meggunakan tools ini :)"
 sleep 1
