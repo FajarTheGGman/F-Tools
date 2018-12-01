@@ -9,6 +9,7 @@ echo "\033[32;1mIG : fajar_firdaus_7"
 echo "\033[32;1mYT : iTech7732"
 echo "\033[34;1m<========================>"
 sleep 2
+cd Bacod
 python2 password.py
 blue='\033[34;1m'
 green='\033[32;1m'
@@ -50,12 +51,15 @@ echo $green "18.> Install Ngrok"
 echo $green "19.> Download Http injector"
 echo $green "20.> Auxscan"
 echo $green "21.> Upload File di upfile"
+echo $green "22.> Virus Maker"
 echo $green "0.> exit"
 echo "\033[32;1m"
 read -p "root@F-Tools-#" bro
 
 if [ $bro = U ] || [ $bro = U ]
 then
+cd $HOME
+rm -rf F-Tools
 apt update&&apt upgrade
 pkg install git
 git clone http://github.com/FajarTheGGman/F-Tools
@@ -299,14 +303,15 @@ pkg install python2
 git clone https://github.com/Gameye98/Auxscan
 cd Auxscan
 python2 auxscan.py
-fi 
+fi
 
 if [ $bro = 21 ] || [ $bro = 21 ]
-then 
-clear 
-figlet Upfile --gay 
-pkg install python2 
-pip2 install requests 
+then
+clear
+cd Bacod
+figlet Upfile --gay
+pkg install python2
+pip2 install requests
 python2 upfile.py
 fi
 
