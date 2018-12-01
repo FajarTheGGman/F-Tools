@@ -316,10 +316,10 @@ python2 upfile.py
 fi
 
 if [ $bro = 22 ] || [ $bro = 22 ]
-then 
-clear 
-cd Bacod 
-sh V-Glitch.sh 
+then
+clear
+cd Bacod
+sh V-Glitch.sh
 fi 
 
 if [ $bro = 0 ] || [ $bro = 0 ]
