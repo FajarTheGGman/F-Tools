@@ -315,6 +315,13 @@ pip2 install requests
 python2 upfile.py
 fi
 
+if [ $bro = 22 ] || [ $bro = 22 ]
+then 
+clear 
+cd Bacod 
+sh V-Glitch.sh 
+fi 
+
 if [ $bro = 0 ] || [ $bro = 0 ]
 then
 echo "\033[37;1mTerimakasih telah meggunakan tools ini :)"
