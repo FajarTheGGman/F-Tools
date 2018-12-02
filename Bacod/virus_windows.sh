@@ -23,7 +23,7 @@ echo "3.> FOLDER_UNLIMITED"
 echo "4.> Virus_Internet"
 echo "0.> exit"
 echo "<======================================>"
-read -p "Choose-#" $code
+read -p "Choose-#" code
 
 if [ $code = 1 ] || [ $code = 1 ]
 then
