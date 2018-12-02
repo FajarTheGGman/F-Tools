@@ -1,6 +1,5 @@
 #!/usr/bin/bash
 #import sys os
-apt update&&apt upgrade -y
 pkg install wget -y
 pkg install toilet -y
 pkg install figlet -y
