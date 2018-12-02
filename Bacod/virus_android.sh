@@ -22,14 +22,14 @@ echo "Fb : https://www.facebook.com/Ace.of.spades729"
 echo "Ig : fajar_firdaus_7"
 echo "YT : iTech7732"
 echo "<======================================>"
-echo ""
-echo "1.> Virus Data"
-echo "2.> Virus Lag"
-echo "3.> Virus Bootloop"
-echo "4.> Virus Bom Zip"
-echo "5.> Virus Elite"
-echo "0.>exit"
-echo ""
+echo '\033[34;1m'
+echo $blue "1.> Virus Data"
+echo $blue "2.> Virus Lag"
+echo $blue "3.> Virus Bootloop"
+echo $blue "4.> Virus Bom Zip"
+echo $blue "5.> Virus Elite"
+echo $blue "0.>exit"
+echo '\033[34;1m'
 echo "<======================================>"
 read -p "root@V-Glitch-#" bro
 
