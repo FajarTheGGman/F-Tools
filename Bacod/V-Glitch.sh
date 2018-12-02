@@ -20,7 +20,7 @@ toilet -f graffiti.flf Silahkan Pilih Virus nya
 echo "1.> Windows"
 echo "2.> Android"
 echo "0.> exit"
-read -p "root@V-Glitch-#" $asw
+read -p "root@V-Glitch-#" asw
 
 if [ $asw = 1 ] || [ $asw = 1 ]
 then
