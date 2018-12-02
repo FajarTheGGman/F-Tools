@@ -1,6 +1,5 @@
 #!/usr/bin/bash
 #import sys os
-apt update&&apt upgrade -y
 pkg install figlet -y
 pkg install toilet -y
 blue='\033[34;1m'
