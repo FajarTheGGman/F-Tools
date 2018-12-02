@@ -14,6 +14,7 @@ white='\033[37;1m'
 yellow='\033[33;1m'
 echo "<======================================>"
 neofetch
+toilet -f graffiti.flf Virus For Android --gay
 echo "<======================================>"
 sleep 2
 echo "<======================================>"
@@ -30,7 +31,7 @@ echo "5.> Virus Elite"
 echo "0.>exit"
 echo ""
 echo "<======================================>"
-read -p "root@V-Glitch-#" $asw
+read -p "root@V-Glitch-#" asw
 
 if [ $asw = 1 ] || [ $asw = 1 ]
 then
