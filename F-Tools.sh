@@ -2,7 +2,6 @@
 #import sys os
 clear
 cd Bacod
-python2 password.py
 pkg install figlet -y
 echo "\033[34;1m<========================>"
 echo "\033[31;1mNote:kalo gk tau usename sama pw pm gw"
@@ -11,7 +10,7 @@ echo "\033[32;1mIG : fajar_firdaus_7"
 echo "\033[32;1mYT : iTech7732"
 echo "\033[34;1m<========================>"
 sleep 2
-cd..
+python2 password.py
 blue='\033[34;1m'
 green='\033[32;1m'
 purple='\033[35;1m'
@@ -20,6 +19,7 @@ red='\033[31;1m'
 white='\033[37;1m'
 yellow='\033[33;1m'
 sleep 1
+cd $HOME/F-Tools
 toilet -f graffiti.flf F-TOOLS --gay
 echo ""
 echo "\033[34;1m[$]\033[36;1m============================\033[34;1m[$]"
