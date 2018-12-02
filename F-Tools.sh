@@ -2,6 +2,7 @@
 #import sys os
 clear
 cd Bacod
+python2 password.py
 pkg install figlet -y
 echo "\033[34;1m<========================>"
 echo "\033[31;1mNote:kalo gk tau usename sama pw pm gw"
@@ -10,7 +11,7 @@ echo "\033[32;1mIG : fajar_firdaus_7"
 echo "\033[32;1mYT : iTech7732"
 echo "\033[34;1m<========================>"
 sleep 2
-python2 password.py
+cd..
 blue='\033[34;1m'
 green='\033[32;1m'
 purple='\033[35;1m'
