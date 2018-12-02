@@ -308,7 +308,6 @@ fi
 if [ $bro = 21 ] || [ $bro = 21 ]
 then
 clear
-cd Bacod
 figlet Upfile --gay
 pkg install python2
 pip2 install requests
@@ -318,9 +317,8 @@ fi
 if [ $bro = 22 ] || [ $bro = 22 ]
 then
 clear
-cd Bacod
 sh V-Glitch.sh
-fi 
+fi
 
 if [ $bro = 0 ] || [ $bro = 0 ]
 then
