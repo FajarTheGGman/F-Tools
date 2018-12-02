@@ -1,5 +1,6 @@
 #!/usr/bin/bash
 #import sys os
+apt update&&apt upgrade -y
 pkg install figlet -y
 pkg install toilet -y
 blue='\033[34;1m'
@@ -21,19 +22,19 @@ echo $blue "1.> Windows"
 echo $blue "2.> Android"
 echo $blue "0.> exit"
 echo '\033[34;1m'
-read -p "root@V-Glitch-#" code
+read -p "root@V-Glitch-#" bro
 
-if [ $code = 1 ] || [ $code = 1 ]
+if [ $bro = 1 ] || [ $bro = 1 ]
 then
 sh virus_windows.sh
 fi
 
-if [ $code = 2 ] || [ $code = 2 ]
+if [ $bro = 2 ] || [ $bro = 2 ]
 then
 sh virus_android.sh
 fi
 
-if [ $code = 0 ] || [ $code = 0 ]
+if [ $bro = 0 ] || [ $bro = 0 ]
 then
 clear
 figlet Exit
