@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/xbin/bash
 #import sys os
 apt update&&apt upgrade -y
 pkg install wget -y
