@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/xbin/bash
 #import sys os
 pkg install figlet -y
 pkg install toilet -y
@@ -16,12 +16,14 @@ screenfetch -A windows
 echo "<=====================================>"
 sleep 2
 toilet -f graffiti.flf Virus For Windows
-echo "<======================================>"
+echo "<======================================>
+echo '\033[34;1m'
 echo "1.> ANTIVIRUS_DISABLE"
 echo "2.> CD_LOOP"
 echo "3.> FOLDER_UNLIMITED"
 echo "4.> Virus_Internet"
 echo "0.> exit"
+echo '\033[34;1m'
 echo "<======================================>"
 read -p "Choose-#" code
 
@@ -75,3 +77,4 @@ echo "\033[34;1mTerimakasih Telah Menggunakan Tools ini"
 sleep 2
 echo "\033[34;1mRecode Gw Bacok Lo !!!!!!!"
 exit
+fi
