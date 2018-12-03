@@ -1,7 +1,5 @@
 #!/system/bin/bash
-#import sys os
 clear
-cd Bacod
 pkg install figlet -y
 echo "\033[34;1m<========================>"
 echo "\033[31;1mNote:kalo gk tau usename sama pw pm gw"
