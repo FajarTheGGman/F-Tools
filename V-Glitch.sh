@@ -1,5 +1,4 @@
 #!/usr/bin/bash
-#import sys os
 clear
 cd Bacod
 apt update&&apt upgrade -y
