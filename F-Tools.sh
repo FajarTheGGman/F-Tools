@@ -1,4 +1,7 @@
 #!/system/bin/bash
+#mau ngapain gblk ?
+#jan recode tolol 
+#Gw capek buatnya asw
 clear
 pkg install figlet -y
 echo "\033[34;1m<========================>"
@@ -17,7 +20,6 @@ red='\033[31;1m'
 white='\033[37;1m'
 yellow='\033[33;1m'
 sleep 1
-cd $HOME/F-Tools
 toilet -f graffiti.flf F-TOOLS --gay
 echo ""
 echo "\033[34;1m[$]\033[36;1m============================\033[34;1m[$]"
@@ -51,6 +53,7 @@ echo $green "19.> Download Http injector"
 echo $green "20.> Auxscan"
 echo $green "21.> Upload File di upfile"
 echo $green "22.> Virus Maker"
+echo $green "23.> Sqlbot"
 echo $green "0.> exit"
 echo "\033[32;1m"
 read -p "root@F-Tools-#" bro
@@ -317,6 +320,17 @@ if [ $bro = 22 ] || [ $bro = 22 ]
 then
 clear
 sh V-Glitch.sh
+fi
+
+if [ $bro = 23 ] || [ $bro = 23 ]
+then
+clear
+figlet Installing
+pkg install git -y
+git clone http://github.com/FajarTheGGman/Sqlbot
+mv Sqlbot $HOME
+cd $HOME/Sqlbot
+sh sqbot.sh
 fi
 
 if [ $bro = 0 ] || [ $bro = 0 ]
