@@ -1,7 +1,6 @@
 #!/usr/bin/bash
 clear
 cd Bacod
-apt update&&apt upgrade -y
 pkg install figlet -y
 pkg install toilet -y
 blue='\033[34;1m'
@@ -11,13 +10,16 @@ cyan='\033[36;1m'
 red='\033[31;1m'
 white='\033[37;1m'
 yellow='\033[33;1m'
+sleep 1
 toilet -f graffiti.flf V-Glitch --gay
+echo ""
 echo "<==========================================>"
 echo "Coder : Fajar Firdaus"
 echo "Fb : https://www.facebook.com/Ace.of.spades729"
 echo "IG : fajar_firdaus_7"
 echo "YT : iTech7732"
 echo "<==========================================>"
+echo ""
 echo '\033[34;1m'
 echo $blue "1.> Windows"
 echo $blue "2.> Android"
