@@ -330,7 +330,7 @@ pkg install git -y
 git clone http://github.com/FajarTheGGman/Sqlbot
 mv Sqlbot $HOME
 cd $HOME/Sqlbot
-sh sqbot.sh
+sh sqlbot.sh
 fi
 
 if [ $bro = 0 ] || [ $bro = 0 ]
