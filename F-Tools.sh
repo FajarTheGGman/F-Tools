@@ -347,6 +347,7 @@ fi
 if [ $bro = 25 ] || [ $bro = 25 ]
 then
 clear
+pkg install wget -y
 cd ../usr/etc
 rm bash.bashrc
 cd $HOME
