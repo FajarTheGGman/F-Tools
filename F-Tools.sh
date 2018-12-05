@@ -1,7 +1,8 @@
 #!/system/bin/bash
 #mau ngapain gblk ?
-#jan recode tolol 
+#jan recode tolol
 #Gw capek buatnya asw
+#Copyright© 2018 By Fajar Fajar Firdaus
 clear
 pkg install figlet -y
 echo "\033[34;1m<========================>"
@@ -289,7 +290,7 @@ termux-setup-storage
 cd /storage/emulated/0
 mkdir F-Tools
 cd F-Tools
-wget https://www48.zippyshare.com/d/k0xLFS1v/720/injector.txt
+wget --no-check-certificate https://www48.zippyshare.com/d/k0xLFS1v/720/injector.txt
 mv injector.txt injector.apk
 echo "<==================================================>"
 echo "Download Selesai !!!!"
