@@ -56,6 +56,7 @@ echo $green "21.> Upload File di upfile"
 echo $green "22.> Virus Maker"
 echo $green "23.> Sqlbot"
 echo $green "24.> Dengerin Musik Di Termux"
+echo $green "25.> Mengubah Simbol "$" jadi root@Linux-#"
 echo $green "0.> exit"
 echo "\033[32;1m"
 read -p "root@F-Tools-#" bro
@@ -336,11 +337,22 @@ sh sqlbot.sh
 fi
 
 if [ $bro = 24 ] || [ $bro = 24 ]
-then 
-clear 
-pkg install mpv -y 
+then
+clear
+pkg install mpv -y
 read -p "Masukan Directory Musik Lo (contoh : /storage/emulated/0/Musik) :" $mpv
-mpv --playlist=$mpv 
+mpv --playlist=$mpv
+fi
+
+if [ $bro = 25 ] || [ $bro = 25 ]
+then
+clear
+cd ../usr/etc
+rm bash.bashrc
+cd $HOME
+wget https://www73.zippyshare.com/d/WDhnt46q/195/bash.bashrc
+mv bash.bashrc /data/data/com.termux/files/usr/etc
+echo "Done! Sekarang Tinggal Keluar Termux Terus Masuk lagi"
 fi
 
 if [ $bro = 0 ] || [ $bro = 0 ]
