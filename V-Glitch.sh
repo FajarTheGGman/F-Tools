@@ -1,4 +1,7 @@
 #!/usr/bin/bash
+#Mau ngaopain tolo !!!!!!!!!
+#jan di recode gblk gw capek bikin nya !!!!
+#Copyright© 2018 By Fajar Fajar Firdaus
 clear
 cd Bacod
 pkg install figlet -y
@@ -20,11 +23,11 @@ echo "IG : fajar_firdaus_7"
 echo "YT : iTech7732"
 echo "<==========================================>"
 echo ""
-echo '\033[34;1m'
+echo ""'\033[34;1m'""
 echo $blue "1.> Windows"
 echo $blue "2.> Android"
 echo $blue "0.> exit"
-echo '\033[34;1m'
+echo "'\033[34;1m'"
 read -p "root@V-Glitch-#" bro
 
 if [ $bro = 1 ] || [ $bro = 1 ]
