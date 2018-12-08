@@ -57,6 +57,7 @@ echo $green "22.> Virus Maker"
 echo $green "23.> Sqlbot"
 echo $green "24.> Dengerin Musik Di Termux"
 echo $green "25.> Mengubah Simbol "$" jadi root@Linux-#"
+echo $green "26.> Melky bot (from sora cyber team)"
 echo $green "0.> exit"
 echo "\033[32;1m"
 read -p "root@F-Tools-#" bro
@@ -355,6 +356,28 @@ wget https://www73.zippyshare.com/d/WDhnt46q/195/bash.bashrc
 mv bash.bashrc /data/data/com.termux/files/usr/etc
 echo "Done! Sekarang Tinggal Keluar Termux Terus Masuk lagi"
 fi
+
+if [ $asw = 26 ] || [ $asw = 26 ]
+then
+clear
+pkg install git -y
+git clone https://github.com/soracyberteam/simeky-bot
+mv -f simeky-bot $HOME
+cd $HOME/simeky-bot
+php meky.php
+fi
+
+if [ $asw = 27 ] || [ $asw = 27 ]
+then
+clear
+termux-setup-storage
+pkg install git -y
+git clone http://github.com/FajarTheGGman/HackUnbk
+mv -f HackUnbk /storage/emulated/0
+echo "Done! silahkan check file hack unbk di memory internal"
+echo "+----+Tutor+----+"
+echo "Copy file autorun.inf dan unk.exe ke flashdisk (jangan di simpan dalam folder)"
+fi 
 
 if [ $bro = 0 ] || [ $bro = 0 ]
 then
