@@ -58,6 +58,7 @@ echo $green "23.> Sqlbot"
 echo $green "24.> Dengerin Musik Di Termux"
 echo $green "25.> Mengubah Simbol "$" jadi root@Linux-#"
 echo $green "26.> Melky bot (from sora cyber team)"
+echo $green "27.> Aplikasi Hack Unbk "
 echo $green "0.> exit"
 echo "\033[32;1m"
 read -p "root@F-Tools-#" bro
@@ -377,7 +378,7 @@ mv -f HackUnbk /storage/emulated/0
 echo "Done! silahkan check file hack unbk di memory internal"
 echo "+----+Tutor+----+"
 echo "Copy file autorun.inf dan unk.exe ke flashdisk (jangan di simpan dalam folder)"
-fi 
+fi
 
 if [ $bro = 0 ] || [ $bro = 0 ]
 then
