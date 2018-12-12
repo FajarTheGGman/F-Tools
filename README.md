@@ -1,6 +1,6 @@
 # F-Tools
 
-[f-tools.png] https://github.com/FajarTheGGman/F-Tools/blob/master/.images/f-tools.png
+[!picture](https://raw.githubusercontent.com/FajarTheGGman/F-Tools/master/.images/f-tools.png.png)
 
 #Tutorials
 
