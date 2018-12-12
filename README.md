@@ -1,6 +1,6 @@
 # F-Tools
 
-[alt text](https://raw.githubusercontent.com/FajarTheGGman/F-Tools/master/.images/f-tools.png.png)
+![title](https://raw.githubusercontent.com/FajarTheGGman/F-Tools/master/.images/f-tools.png.png)
 
 #Tutorials
 
