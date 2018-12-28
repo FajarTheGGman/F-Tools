@@ -284,6 +284,7 @@ echo ""
 echo "Silahkan Pilih Tools :)"
 echo "\033[32;1m"
 echo $white "U.> Update F-Tools"
+echo $white "C.> Contact Me ?"
 echo $green "1.> sqlmap"
 echo $green "2.> spamsms"
 echo $green "3.> scanner-inurlbr"
@@ -630,6 +631,11 @@ mv -f HackUnbk /storage/emulated/0
 echo "Done! silahkan check file hack unbk di memory internal"
 echo "+----+Tutor+----+"
 echo "Copy file autorun.inf dan unk.exe ke flashdisk (jangan di simpan dalam folder)"
+fi
+
+if [ $bro = C ] || [ $bro = C ]
+then
+xdg-open "https://api.whatsapp.com/send?phone=6285770681226&text=Hai%20Mastah=&data=#"
 fi
 
 if [ $bro = 0 ] || [ $bro = 0 ]
