@@ -14,9 +14,6 @@
 
 
 
-#Username : FTools
-
-#Password : fajarfirdaus
 
 Whats New ?
 
