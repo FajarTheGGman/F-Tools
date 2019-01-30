@@ -613,7 +613,7 @@ if [ $bro = 24 ] || [ $bro = 24 ]
 then
 clear
 pkg install mpv -y
-read -p "Masukan Directory Musik Lo (contoh : /storage/emulated/0/Musik) :" $mpv
+read -p "Masukan Directory Musik Lo (contoh : /storage/emulated/0/Musik) :" mpv
 mpv --playlist=$mpv
 fi
 
