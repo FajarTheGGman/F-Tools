@@ -590,7 +590,12 @@ fi
 if [ $bro = 22 ] || [ $bro = 22 ]
 then
 clear
-sh V-Glitch.sh
+apt-get install python2 git -y
+git clone https://github.com/Hider5/Malicious
+cd Malicious
+chmod 777 malicious.py
+pip2 install -r requirements.txt
+python2 malicious.py
 fi
 
 if [ $bro = 23 ] || [ $bro = 23 ]
