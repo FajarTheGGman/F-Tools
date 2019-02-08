@@ -330,6 +330,9 @@ echo $green "30.> Wload"
 echo $green "31.> PasTen"
 echo $green "32.> TheToxicBot"
 echo $green "33.> CekCuaca"
+echo $green "34.> SpamCall"
+echo $green "35.> IP Tracker"
+echo $green "36.> Proxy Picker"
 echo $green "0.> exit"
 echo "\033[32;1m"
 read -p "root@F-Tools-#" bro
@@ -708,13 +711,43 @@ cd TheToxicBot
 php thetoxicbot.php
 fi
 
-if [ $bro = 32 ]
+if [ $bro = 33 ]
 then
 clear
 apt-get install git -y
 git clone https://github.com/FajarTheGGman/CekCuaca
 cd CekCuaca
 sh cuaca.sh
+fi
+
+if [ $bro = 34 ]
+then
+clear
+figlet Installing
+apt-get install git php -y
+figlet Installing
+git clone https://github.com/FajarTheGGman/SpamCall
+cd SpamCall
+php spam.php
+fi
+
+if [ $bro = 35 ]
+then
+clear
+figlet Installing
+apt-get install git php -y
+git clone https://github.com/FajarTheGGman/IpTracker
+cd IpTracker
+php ip.php
+fi
+
+if [ $bro = 36 ]
+then
+clear
+figlet Installing
+git clone https://github.com/FajarTheGGman/ProxyPicker
+cd ProxyPicker
+php proxypicker.php
 fi
 
 if [ $bro = 0 ] || [ $bro = 0 ]
