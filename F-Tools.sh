@@ -529,7 +529,7 @@ cd $HOME/KomenTarget
 python2 Komen.py
 fi
 
-if [ $brp = 17 ] || [ $bro = 17 ]
+if [ $bro = 17 ] || [ $bro = 17 ]
 then
 clear
 figlet Installing
