@@ -333,6 +333,7 @@ echo $green "33.> CekCuaca"
 echo $green "34.> SpamCall"
 echo $green "35.> IP Tracker"
 echo $green "36.> Proxy Picker"
+echo $green "37.> Multi Bruteforce Facebook (old script)"
 echo $green "0.> exit"
 echo "\033[32;1m"
 read -p "root@F-Tools-#" bro
@@ -748,6 +749,14 @@ figlet Installing
 git clone https://github.com/FajarTheGGman/ProxyPicker
 cd ProxyPicker
 php proxypicker.php
+fi
+
+if [ $bro = 37 ]
+then 
+clear 
+apt-get install curl python2 python -y
+curl https://github.com/FajarTheGGman/fbbrute/blob/master/MBF.py -o MBF.py
+python2 MBF.py
 fi
 
 if [ $bro = 0 ] || [ $bro = 0 ]
