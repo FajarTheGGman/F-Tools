@@ -14,6 +14,4 @@
 
 Whats New ?
 
--Add Virus Maker 
-
--Add Upfile (File Upload)
+- Fixed bugs
