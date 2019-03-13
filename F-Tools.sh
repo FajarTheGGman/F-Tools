@@ -293,6 +293,8 @@ echo "\033[36;1mYoutube : iTech7732"
 echo "\033[36;1mIG : Fajar_Firdaus_7"
 echo "\033[34;1m[$]\033[36;1m============================\033[34;1m[$]"
 echo ""
+echo $red"Lapor ke gw kalo ada error !!"
+echo ""
 echo "Silahkan Pilih Tools :)"
 echo "\033[32;1m"
 echo $white "U.> Update F-Tools"
@@ -350,8 +352,7 @@ figlet Installing
 pkg install python2 -y
 pkg install git -y
 git clone https://github.com/sqlmapproject/sqlmap
-mv -f sqlmap $HOME
-cd $HOME/sqlmap
+cd sqlmap
 fi
 
 if [ $bro = 2 ] || [ $bro =2 ]
@@ -361,8 +362,7 @@ figlet installing
 pkg install python2 -y
 pkg install git -y
 git clone https://github.com/Senitopeng/SpamSms
-mv -f SpamSms $HOME
-python2 $HOME/SpamSms/mantan.py
+python2 SpamSms/mantan.py
 fi
 
 if [ $bro = 3 ] || [ $bro = 3 ]
@@ -374,8 +374,7 @@ pkg install php -y
 pkg install curl -y
 pkg install git -y
 git clone https://github.com/googleinurl/SCANNER-INURLBR
-mv -f SCANNER-INURLBR $HOME
-cd $HOME/SCANNER-INURLBR
+cd SCANNER-INURLBR
 fi
 
 if [ $bro = 4 ] || [ $bro = 4 ]
@@ -387,8 +386,7 @@ pkg install python python2 -y
 pip2 install mechanize -y
 pkg install git -y
 git clone https://github.com/Senitopeng/fbbrute
-mv -f fbbrute $HOME
-cd $HOME/fbbrute
+cd fbbrute
 fi
 
 if [ $bro = 5 ] || [ $bro = 5 ]
@@ -416,8 +414,7 @@ apt update&&apt upgrade -y
 pkg install git -y
 pkg install php -y
 git clone https://github.com/Tuhinshubhra/RED_HAWK
-mv -f RED_HAWK $HOME
-cd $HOME/RED_HAWK
+cd RED_HAWK
 fi
 
 if [ $bro = 8 ] || [ $bro = 8 ]
@@ -430,8 +427,7 @@ apt install grep -y
 apt install lynx -y
 apt install git -y
 git clone https://github.com/Hood3dRob1n/BinGoo
-mv -f BinGoo $HOME
-cd $HOME/BinGoo
+cd BinGoo
 fi
 
 if [ $bro = 9 ] || [ $bro = 9 ]
@@ -443,8 +439,7 @@ pkg install git -y
 pkg install python2 -y
 pip2 install requests
 git clone https://github.com/CiKu370/OSIF
-mv -f OSIF $HOME
-cd $HOME/OSIF
+cd OSIF
 fi
 
 if [ $bro = 10 ] || [ $bro = 10 ]
@@ -454,8 +449,7 @@ figlet Installing
 apt update&&apt upgrade -y
 pkg install python2 git -y
 git clone https://github.com/Gameye98/Lazymux
-mv -f Lazymux $HOME
-cd $HOME/Lazymux
+cd Lazymux
 fi
 
 if [ $bro = 11 ] || [ $bro = 11 ]
@@ -473,8 +467,7 @@ apt update&&apt upgrade -y
 pkg install git -y
 pkg install python2
 git clone https://github.com/Gameye98/APAFI
-mv -f APAFI $HOME
-cd $HOME/APAFI
+cd APAFI
 python2 apafi.py
 fi
 
@@ -486,7 +479,7 @@ apt update&&apt upgrade -y
 pkg install git -y
 git clone https://github.com/4L13199/meTAInstall
 mv -f meTAInstall $HOME
-cd $HOME/meTAInstall
+cd meTAInstall
 chmod +x meTAInstall
 sh meTAInstall
 gem install nokogiri -v 1.8.0
@@ -501,8 +494,7 @@ pkg install git -y
 pkg install python2 -y
 pip2 install bs4 pynac1 requests paramiko
 git clone https://github.com/kuburan/txtool
-mv -f txtool $HOME
-cd $HOME/txtool
+cd txtool
 fi
 
 if [ $bro = 15 ] || [ $bro = 15 ]
@@ -513,8 +505,7 @@ apt update&&apt upgrade -y
 pkg install python2 -y
 pkg install git -y
 git clone https://github.com/unknwhp/HashKiller
-mv -f HashKiller $HOME
-cd $HOME/HashKiller
+cd HashKiller
 fi
 
 if [ $bro = 16 ] || [ $bro = 16 ]
@@ -525,8 +516,7 @@ apt update&&apt upgrade -y
 pkg install git -y
 pkg install python2
 git clone https://github.com/Senitopeng/KomenTarget
-mv -f KomenTarget $HOME
-cd $HOME/KomenTarget
+cd KomenTarget
 python2 Komen.py
 fi
 
@@ -538,8 +528,7 @@ apt update&&apt upgrade -y
 pkg install python python2 -y
 pkg install git -y
 git clone https://github.com/Ubaii/script-deface-creator
-mv -f script-deface-creator $HOME
-cd $HOME/script-deface-creator
+cd script-deface-creator
 python2 create.py
 fi
 
@@ -551,8 +540,6 @@ figlet Installing
 pkg install unzip -y
 pkg install wget -y
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip
-mv ngrok-stable-linux-arm.zip $HOME
-cd $HOME
 unzip ngrok-stable-linux-arm.zip
 ./ngrok
 fi
@@ -608,8 +595,7 @@ clear
 figlet Installing
 pkg install git -y
 git clone http://github.com/FajarTheGGman/Sqlbot
-mv Sqlbot $HOME
-cd $HOME/Sqlbot
+cd Sqlbot
 sh sqlbot.sh
 fi
 
@@ -638,8 +624,7 @@ then
 clear
 pkg install git -y
 git clone https://github.com/soracyberteam/simeky-bot
-mv -f simeky-bot $HOME
-cd $HOME/simeky-bot
+cd simeky-bot
 php meky.php
 fi
 
