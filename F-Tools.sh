@@ -4,7 +4,7 @@
 #Gw capek buatnya asw
 #Copyright© 2018 By Fajar Fajar Firdaus
 #Dear Tukang Recode :
-#[=============Baca Hadist ini=============]
+#[=============================================================]
 #Lelaki yang mencuri dan wanita yang mencuri,potonglah tangan
 #keduanya (sebagai) pembalasan bagi apa yang mereka kerjakan dan
 #sebagai siksaan dari Allah.
