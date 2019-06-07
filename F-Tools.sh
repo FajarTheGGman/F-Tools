@@ -269,12 +269,12 @@ echo "starting toolS... /";
 sleep 0.1;
 clear
 pkg install figlet -y
-echo "\033[34;1m<========================>"
-echo "\033[31;1mNote:kalo gk tau usename sama pw pm gw"
+echo "\033[34;1m[======================================]"
+echo "\033[31;1mNote : kalo gk tau usename sama pw pm gw"
 echo "\033[32;1mFB : http://facebook.com/Ace.of.spades729"
 echo "\033[32;1mIG : fajar_firdaus_7"
 echo "\033[32;1mYT : iTech7732"
-echo "\033[34;1m<========================>"
+echo "\033[34;1m[======================================]"
 sleep 2
 python2 password.py
 blue='\033[34;1m'
@@ -294,6 +294,8 @@ echo "\033[36;1mIG : Fajar_Firdaus_7"
 echo "\033[34;1m[$]\033[36;1m============================\033[34;1m[$]"
 echo ""
 echo $red"Lapor ke gw kalo ada error !!"
+echo ""
+echo $blue "[ Version : 3.5 ]"
 echo ""
 echo "Silahkan Pilih Tools :)"
 echo "\033[32;1m"
@@ -336,6 +338,9 @@ echo $green "34.> SpamCall"
 echo $green "35.> IP Tracker"
 echo $green "36.> Proxy Picker"
 echo $green "37.> Multi Bruteforce Facebook (old script)"
+echo $green "38.> Who Are You"
+echo $green "39.> DorkSearch"
+echo $green "40.> Cryptography"
 echo $green "0.> exit"
 echo "\033[32;1m"
 read -p "root@F-Tools-#" bro
@@ -742,6 +747,34 @@ clear
 apt-get install curl python2 python -y
 curl https://github.com/FajarTheGGman/fbbrute/blob/master/MBF.py -o MBF.py
 python2 MBF.py
+fi
+
+if [ $bro = 38 ]
+then
+clear
+figlet Installing
+git clone https://github.com/FajarTheGGman/WhoAreYou
+cd WhoAreYou
+sh install.sh
+fi
+
+if [ $bro = 39 ]
+then
+clear
+figlet Installing
+git clone https://github.com/FajarTheGGman/Dork-Search
+apt-get install golang -y
+cd Dork-Search
+sh install.sh
+fi
+
+if [ $bro = 40 ]
+then
+clear 
+figlet Installing
+git clone https://github.com/FajarTheGGman/Cryptography
+cd Cryptography
+sh install.sh
 fi
 
 if [ $bro = 0 ] || [ $bro = 0 ]
