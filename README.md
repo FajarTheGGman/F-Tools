@@ -1,5 +1,7 @@
 # F-Tools
 
+![Version](https://img.shields.io/badge/Version-1.0-green)
+
 ![title](https://raw.githubusercontent.com/FajarTheGGman/F-Tools/master/.images/f-tools.png.png)
 
 # Tutorials
