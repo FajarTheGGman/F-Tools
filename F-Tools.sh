@@ -1,20 +1,5 @@
 #!/system/bin/bash
-#mau ngapain gblk ?
-#jan recode tolol
-#Gw capek buatnya asw
-#Copyright© 2018 By Fajar Fajar Firdaus
-#Dear Tukang Recode :
-#[=============================================================]
-#Lelaki yang mencuri dan wanita yang mencuri,potonglah tangan
-#keduanya (sebagai) pembalasan bagi apa yang mereka kerjakan dan
-#sebagai siksaan dari Allah.
-#Dan Allah Maha Perkasa lagi Maha Bijaksana.
-#Maka barangsiapa bertaubat (di antara pencuri-pencuri itu)
-#sesudah melakukan kejahatan itu dan memperbaiki diri,
-#maka sesungguhnya Allah menerima taubatnya.
-#Sesungguhnya Allah Maha Pengampun lagi Maha Penyayang.”
-
-#(QS. Al-Maidah: 38-39)
+#Copyright© 2019 By Fajar Firdaus
 clear
 echo "starting tools... /";
 sleep 0.1;
