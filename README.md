@@ -17,3 +17,10 @@
 Whats New ?
 
 - Fixed bugs
+
+
+# Donate Me On 
+![donate](https://surabayaonline.co/wp-content/uploads/2019/11/OVO-Logo.jpg)
+
+![donate](https://raw.githubusercontent.com/FajarTheGGman/F-Tools/master/.images/donate.jpeg)
+
