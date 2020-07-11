@@ -21,6 +21,15 @@ dependencies(){
         mkdir tools
     fi
 
+    if [[ $ruby == *"ruby"* ]]; then
+        echo "";
+    else
+        echo -e $red"[!] ruby not installed";
+        echo -e $blue"[/] Installing ruby";
+        apt-get install ruby -y
+        echo -e $green"[+] ruby installed";
+    fi
+
     if [[ $git == *"git"* ]]; then
         echo ""
     else
@@ -48,14 +57,6 @@ dependencies(){
         echo -e $green"[+] lolcat installed";
     fi
 
-    if [[ $ruby == *"ruby"* ]]; then
-        echo "";
-    else
-        echo -e $red"[!] ruby not installed";
-        echo -e $blue"[/] Installing ruby";
-        apt-get install ruby -y
-        echo -e $green"[+] ruby installed";
-    fi
 }
 
 clear
