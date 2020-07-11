@@ -5,7 +5,7 @@
 ![](https://raw.githubusercontent.com/FajarTheGGman/F-Tools/master/.imh/banner.png)
 ![](https://raw.githubusercontent.com/FajarTheGGman/F-Tools/master/.imh/content.png)
 
-# Tutorials Instalation
+# Tutorial Instalation
 
 # Termux
 <pre>
