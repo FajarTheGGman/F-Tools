@@ -2,8 +2,8 @@
 
 ![Version](https://img.shields.io/badge/Version-2.0-green) ![Lang](https://img.shields.io/badge/Language-Bash-lime)
 
-![](https://raw.githubusercontent.com/FajarTheGGman/F-Tools/master/.imh/banner.png)
-![](https://raw.githubusercontent.com/FajarTheGGman/F-Tools/master/.imh/content.png)
+![](https://raw.githubusercontent.com/FajarTheGGman/F-Tools/master/.img/banner.png)
+![](https://raw.githubusercontent.com/FajarTheGGman/F-Tools/master/.img/content.png)
 
 # Tutorial Instalation
 
