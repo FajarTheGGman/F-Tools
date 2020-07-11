@@ -89,6 +89,7 @@ done
 
 tools(){
     figlet -f slant "Wellcome Back" | lolcat
+    echo -e $red"Note : Tools yang sudah di download akan masuk ke folder tools"
     echo -e $white "[U] > Update"
     echo -e $green "[1] > knowyourself"
     echo -e $green "[2] > theonionguy (linux only)"
