@@ -32,5 +32,4 @@ Whats New ?
 
 
 # Buy Me Some Coffe :)
-![donate](https://raw.githubusercontent.com/FajarTheGGman/F-Tools/master/.images/donate.jpeg)
-
+![donate](https://github.com/FajarTheGGman/F-Tools/blob/master/.images/donate.jpeg)
