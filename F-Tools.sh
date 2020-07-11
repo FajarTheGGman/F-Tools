@@ -55,6 +55,7 @@ dependencies(){
         echo -e $blue"[/] Installing ruby";
         apt-get install ruby -y
         echo -e $green"[+] ruby installed";
+    fi
 }
 
 clear
