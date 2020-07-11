@@ -1,267 +1,5 @@
 #!/system/bin/bash
-#Copyright© 2019 By Fajar Firdaus
-clear
-echo "starting tools... /";
-sleep 0.1;
-clear
-echo 'Starting tools... -';
-sleep 0.1;
-clear
-echo 'sTarting tools... \';
-sleep 0.1;
-clear
-echo "stArting tools... /";
-sleep 0.1;
-clear
-echo 'staRting tools... -';
-sleep 0.1;
-clear
-echo 'starTing tools... \';
-sleep 0.1;
-clear
-echo "startIng tools... /";
-sleep 0.1;
-clear
-echo "startiNg tools... -";
-sleep 0.1;
-clear
-echo 'startinG tools... \';
-sleep 0.1;
-clear
-echo 'starting Tools... -';
-sleep 0.1;
-clear
-echo "starting tOols... /";
-sleep 0.1;
-clear
-echo 'starting toOls... -';
-sleep 0.1;
-clear
-echo 'starting tooLs... \';
-sleep 0.1;
-clear
-echo "starting toolS... /";
-sleep 0.1;
-clear
-echo "starting tools... /";
-sleep 0.1;
-clear
-echo 'Starting tools... -';
-sleep 0.1;
-clear
-echo 'sTarting tools... \';
-sleep 0.1;
-clear
-echo "stArting tools... /";
-sleep 0.1;
-clear
-echo 'staRting tools... -';
-sleep 0.1;
-clear
-echo 'starTing tools... \';
-sleep 0.1;
-clear
-echo "startIng tools... /";
-sleep 0.1;
-clear
-echo "startiNg tools... -";
-sleep 0.1;
-clear
-echo 'startinG tools... \';
-sleep 0.1;
-clear
-echo 'starting Tools... -';
-sleep 0.1;
-clear
-echo "starting tOols... /";
-sleep 0.1;
-clear
-echo 'starting toOls... -';
-sleep 0.1;
-clear
-echo 'starting tooLs... \';
-sleep 0.1;
-clear
-echo "starting toolS... /";
-sleep 0.1;
-clear
-echo "starting tools... /";
-sleep 0.1;
-clear
-echo 'Starting tools... -';
-sleep 0.1;
-clear
-echo 'sTarting tools... \';
-sleep 0.1;
-clear
-echo "stArting tools... /";
-sleep 0.1;
-clear
-echo 'staRting tools... -';
-sleep 0.1;
-clear
-echo 'starTing tools... \';
-sleep 0.1;
-clear
-echo "startIng tools... /";
-sleep 0.1;
-clear
-echo "startiNg tools... -";
-sleep 0.1;
-clear
-echo 'startinG tools... \';
-sleep 0.1;
-clear
-echo 'starting Tools... -';
-sleep 0.1;
-clear
-echo "starting tOols... /";
-sleep 0.1;
-clear
-echo 'starting toOls... -';
-sleep 0.1;
-clear
-echo 'starting tooLs... \';
-sleep 0.1;
-clear
-echo "starting toolS... /";
-sleep 0.1;
-clear
-echo "starting tools... /";
-sleep 0.1;
-clear
-echo 'Starting tools... -';
-sleep 0.1;
-clear
-echo 'sTarting tools... \';
-sleep 0.1;
-clear
-echo "stArting tools... /";
-sleep 0.1;
-clear
-echo 'staRting tools... -';
-sleep 0.1;
-clear
-echo 'starTing tools... \';
-sleep 0.1;
-clear
-echo "startIng tools... /";
-sleep 0.1;
-clear
-echo "startiNg tools... -";
-sleep 0.1;
-clear
-echo 'startinG tools... \';
-sleep 0.1;
-clear
-echo 'starting Tools... -';
-sleep 0.1;
-clear
-echo "starting tOols... /";
-sleep 0.1;
-clear
-echo 'starting toOls... -';
-sleep 0.1;
-clear
-echo 'starting tooLs... \';
-sleep 0.1;
-clear
-echo "starting toolS... /";
-sleep 0.1;
-clear
-echo "starting tools... /";
-sleep 0.1;
-clear
-echo 'Starting tools... -';
-sleep 0.1;
-clear
-echo 'sTarting tools... \';
-sleep 0.1;
-clear
-echo "stArting tools... /";
-sleep 0.1;
-clear
-echo 'staRting tools... -';
-sleep 0.1;
-clear
-echo 'starTing tools... \';
-sleep 0.1;
-clear
-echo "startIng tools... /";
-sleep 0.1;
-clear
-echo "startiNg tools... -";
-sleep 0.1;
-clear
-echo 'startinG tools... \';
-sleep 0.1;
-clear
-echo 'starting Tools... -';
-sleep 0.1;
-clear
-echo "starting tOols... /";
-sleep 0.1;
-clear
-echo 'starting toOls... -';
-sleep 0.1;
-clear
-echo 'starting tooLs... \';
-sleep 0.1;
-clear
-echo "starting toolS... /";
-sleep 0.1;
-clear
-echo "starting tools... /";
-sleep 0.1;
-clear
-echo 'Starting tools... -';
-sleep 0.1;
-clear
-echo 'sTarting tools... \';
-sleep 0.1;
-clear
-echo "stArting tools... /";
-sleep 0.1;
-clear
-echo 'staRting tools... -';
-sleep 0.1;
-clear
-echo 'starTing tools... \';
-sleep 0.1;
-clear
-echo "startIng tools... /";
-sleep 0.1;
-clear
-echo "startiNg tools... -";
-sleep 0.1;
-clear
-echo 'startinG tools... \';
-sleep 0.1;
-clear
-echo 'starting Tools... -';
-sleep 0.1;
-clear
-echo "starting tOols... /";
-sleep 0.1;
-clear
-echo 'starting toOls... -';
-sleep 0.1;
-clear
-echo 'starting tooLs... \';
-sleep 0.1;
-clear
-echo "starting toolS... /";
-sleep 0.1;
-clear
-pkg install figlet -y
-echo "\033[34;1m[======================================]"
-echo "\033[31;1mNote : kalo gk tau usename sama pw pm gw"
-echo "\033[32;1mFB : http://facebook.com/Ace.of.spades729"
-echo "\033[32;1mIG : fajar_firdaus_7"
-echo "\033[32;1mYT : iTech7732"
-echo "\033[34;1m[======================================]"
-sleep 2
-python2 password.py
+#Copyright© 2020 By Fajar Firdaus
 blue='\033[34;1m'
 green='\033[32;1m'
 purple='\033[35;1m'
@@ -269,503 +7,311 @@ cyan='\033[36;1m'
 red='\033[31;1m'
 white='\033[37;1m'
 yellow='\033[33;1m'
-sleep 1
-toilet -f graffiti.flf F-TOOLS --gay
-echo ""
-echo "\033[34;1m[$]\033[36;1m============================\033[34;1m[$]"
-echo "\033[36;1mCoder : Fajar Firdaus"
-echo "\033[36;1mYoutube : iTech7732"
-echo "\033[36;1mIG : Fajar_Firdaus_7"
-echo "\033[34;1m[$]\033[36;1m============================\033[34;1m[$]"
-echo ""
-echo $red"Lapor ke gw kalo ada error !!"
-echo ""
-echo $blue "[ Version : 3.5 ]"
-echo ""
-echo "Silahkan Pilih Tools :)"
-echo "\033[32;1m"
-echo $white "U.> Update F-Tools"
-echo $white "C.> Contact Me ?"
-echo $green "1.> sqlmap"
-echo $green "2.> spamsms"
-echo $green "3.> scanner-inurlbr"
-echo $green "4.> tool-hack-efbeh"
-echo $green "5.> nmap"
-echo $green "6.> matrix"
-echo $green "7.> RED_HAWK"
-echo $green "8.> bingoo buat dorking"
-echo $green "9.> OSIF (open source information facebook)"
-echo $green "10.> Lazymux Tools"
-echo $green "11.> Mempercepat Koneksi internet"
-echo $green "12.> admin panel login panel finder"
-echo $green "13.> Metasploit"
-echo $green "14.> txtool"
-echo $green "15.> Hash Killer"
-echo $green "16.> Bot Komen FB"
-echo $green "17.> Script-Deface-Creator"
-echo $green "18.> Install Ngrok"
-echo $green "19.> Download Http injector"
-echo $green "20.> Auxscan"
-echo $green "21.> Upload File di upfile"
-echo $green "22.> Virus Maker"
-echo $green "23.> Sqlbot"
-echo $green "24.> Dengerin Musik Di Termux"
-echo $green "25.> Mengubah Simbol "$" jadi root@Linux-#"
-echo $green "26.> Melky bot (from sora cyber team)"
-echo $green "27.> IslamPray"
-echo $green "28.> IslamKiblat"
-echo $green "29.> Fucking Pentest"
-echo $green "30.> Wload"
-echo $green "31.> PasTen"
-echo $green "32.> TheToxicBot"
-echo $green "33.> CekCuaca"
-echo $green "34.> SpamCall"
-echo $green "35.> IP Tracker"
-echo $green "36.> Proxy Picker"
-echo $green "37.> Multi Bruteforce Facebook (old script)"
-echo $green "38.> Who Are You"
-echo $green "39.> DorkSearch"
-echo $green "40.> Cryptography"
-echo $green "0.> exit"
-echo "\033[32;1m"
-read -p "root@F-Tools-#" bro
 
-if [ $bro = U ] || [ $bro = U ]
-then
-git pull
-fi
+dependencies(){
+    folder=$(ls | grep "tools")
+    git=$(apt list --installed | grep "git")
+    figlet=$(apt list --installed | grep "figlet")
+    lolcat=$(gem which lolcat | grep "lolcat")
+    ruby=$(apt list --installed | grep "ruby")
 
-if [ $bro = 1 ] || [ $bro =1 ]
-then
+    if [[ $folder == *"tools"* ]]; then
+        echo ""
+    else 
+        mkdir tools
+    fi
+
+    if [[ $git == *"git"* ]]; then
+        echo ""
+    else
+        echo -e $red"[!] git not installed";
+        echo -e $blue"[/] Installing git";
+        apt-get install git -y
+        echo -e $green"[+] git installed";
+    fi
+
+    if [[ $figlet == *"figlet"* ]]; then
+        echo ""
+    else 
+        echo -e $red"[!] figlet not installed";
+        echo -e $blue"[/] Installing Figlet";
+        apt-get install figlet -y
+        echo -e $green"[+] Figlet installed";
+    fi
+
+    if [[ $lolcat == *"lolcat"* ]]; then
+        echo ""
+    else
+        echo -e $red"[!] lolcat not installed";
+        echo -e $blue"[/] Installing lolcat";
+        gem install lolcat
+        echo -e $green"[+] lolcat installed";
+    fi
+
+    if [[ $ruby == *"ruby"* ]]; then
+        echo "";
+    else
+        echo -e $red"[!] ruby not installed";
+        echo -e $blue"[/] Installing ruby";
+        apt-get install ruby -y
+        echo -e $green"[+] ruby installed";
+}
+
 clear
-figlet Installing
-pkg install python2 -y
-pkg install git -y
-git clone https://github.com/sqlmapproject/sqlmap
-cd sqlmap
-fi
 
-if [ $bro = 2 ] || [ $bro =2 ]
-then
+opening(){
+for x in {1..15}
+do
+echo "starting tools... /";
+sleep 0.1;
 clear
-figlet installing
-pkg install python2 -y
-pkg install git -y
-git clone https://github.com/Senitopeng/SpamSms
-python2 SpamSms/mantan.py
-fi
-
-if [ $bro = 3 ] || [ $bro = 3 ]
-then
+echo 'Starting tools... -';
+sleep 0.1;
 clear
-figlet Installing
-apt update&&apt upgrade
-pkg install php -y
-pkg install curl -y
-pkg install git -y
-git clone https://github.com/googleinurl/SCANNER-INURLBR
-cd SCANNER-INURLBR
-fi
-
-if [ $bro = 4 ] || [ $bro = 4 ]
-then
+echo 'sTarting tools... \';
+sleep 0.1;
 clear
-figlet Installing
-apt update&&apt upgrade -y
-pkg install python python2 -y
-pip2 install mechanize -y
-pkg install git -y
-git clone https://github.com/Senitopeng/fbbrute
-cd fbbrute
-fi
-
-if [ $bro = 5 ] || [ $bro = 5 ]
-then
+echo "stArting tools... /";
+sleep 0.1;
 clear
-figlet Installing
-apt update&&apt upgrade -y
-pkg install nmap -y
-fi
-
-if [ $bro = 6 ] || [ $bro = 6 ]
-then
+echo 'staRting tools... -';
+sleep 0.1;
 clear
-figlet Installing
-apt upgrade&&apt update -y
-pkg install cmatrix -y
-cmatrix
-fi
-
-if [ $bro = 7 ] || [ $bro = 7 ]
-then
+echo 'starTing tools... \';
+sleep 0.1;
 clear
-figlet Installing
-apt update&&apt upgrade -y
-pkg install git -y
-pkg install php -y
-git clone https://github.com/Tuhinshubhra/RED_HAWK
-cd RED_HAWK
-fi
-
-if [ $bro = 8 ] || [ $bro = 8 ]
-then
+echo "startIng tools... /";
 clear
-figlet Installing
-apt update&&amp; upgrade -y
-apt install curl -y
-apt install grep -y
-apt install lynx -y
-apt install git -y
-git clone https://github.com/Hood3dRob1n/BinGoo
-cd BinGoo
-fi
+done
+}
 
-if [ $bro = 9 ] || [ $bro = 9 ]
-then
-clear
-figlet Installing
-apt update&&apt upgrade -y
-pkg install git -y
-pkg install python2 -y
-pip2 install requests
-git clone https://github.com/CiKu370/OSIF
-cd OSIF
-fi
+tools(){
+    figlet -f slant "Wellcome Back" | lolcat
+    echo -e $white "[U] > Update"
+    echo -e $green "[1] > knowyourself"
+    echo -e $green "[2] > theonionguy (linux only)"
+    echo -e $green "[3] > Reverse IP"
+    echo -e $green "[4] > PhoneSpoofing"
+    echo -e $green "[5] > F-Backup"
+    echo -e $green "[6] > Database Searcher"
+    echo -e $green "[7] > wherethedirectory"
+    echo -e $green "[8] > Go-Server"
+    echo -e $green "[9] > Andromeda"
+    echo -e $green "[10] > RoseKiller"
+    echo -e $green "[11] > Malware_Hunter"
+    echo -e $green "[12] > Termux-Key"
+    echo -e $green "[13] > Wikipedia_Search"
+    echo -e $green "[14] > IpTracker"
+    echo -e $green "[15] > Dork Search"
+    echo -e $green "[16] > Social Media"
+    echo -e $green "[17] > Who Are You"
+    echo -e $green "[18] > CSRD-Uploader"
+    echo -e $green "[19] > XSS-Exploiter"
+    echo -e $green "[20] > KcfinderExploiter"
+    echo -e $green "[21] > Infogathering"
+    echo -e $green "[22] > Cryptography"
+    echo -e $green "[23] > Base64Encode"
+    echo -e $green "[24] > ShellFinder"
+    echo -e $green "[25] > Text To Binary"
+    echo -e $green "[26] > Admin Search"
+    echo -e $green "[27] > Upload Finder"
+    echo -e $green "[28] > Matthew Bot"
+    echo -e $green "[29] > NetScan"
+    echo -e $green "[30] > F-Dos"
+    echo -e $green "[31] > HashMaker"
+    echo -e $green "[32] > GitInform"
+    echo -e $green "[33] > XSploit"
+    echo -e $green "[34] > NetWorkSpoofing"
+    echo -e $green "[35] > MetaBot"
+    echo -e $green "[36] > CekCuaca (Termux only)"
+    echo -e $green "[37] > Sqlbot"
+    echo -e $green "[38] > Take All Repo"
+    echo -e $green "[39] > Termux GUI"
+    echo -e $green "[40] > Wordpress-Exploit"
+    echo -e $green "[41] > RED HAWK"
+    echo -e $green "[42] > Sqlmap"
+    echo -e $green "[43] > JohnTheRipper"
+    echo -e $green "[44] > Evil Droid"
+    echo -e $green "[45] > Striker"
+    echo -e $red "[0] > Exit"
+    read -p "[?] root@F-Tools-# " user
 
-if [ $bro = 10 ] || [ $bro = 10 ]
-then
-clear
-figlet Installing
-apt update&&apt upgrade -y
-pkg install python2 git -y
-git clone https://github.com/Gameye98/Lazymux
-cd Lazymux
-fi
+    mygit="https://github.com/FajarTheGGman/"
 
-if [ $bro = 11 ] || [ $bro = 11 ]
-then
-clear
-figlet Connecting
-ping www.google.com
-fi
+    if [ $user == "1" ]; then
+        echo "";
+        git clone $mygit"knowyourself"
+        mv -f knowyourself tools
+    elif [ $user == "2" ]; then
+        git clone $mygit"theonionguy"
+        mv -f theonionguy tools
+    elif [ $user == "3" ]; then
+        git clone $mygit"ReverseIP"
+        mv -f ReverseIP tools
+    elif [ $user == "4" ]; then
+        git clone $mygit"PhoneSpoofing"
+        mv -f PhoneSpoofing tools
+    elif [ $user == "5" ]; then
+        git clone $mygit"F-Backup"
+        mv -f F-Backup tools
+    elif [ $user == "6" ]; then
+        git clone $mygit"Database-Searcher"
+        mv -f Database-Searcher tools
+    elif [ $user == "7" ]; then
+        git clone $mygit"wherethedirectory"
+        mv -f wherethedirectory tools
+    elif [ $user == "8" ]; then
+        git clone $mygit"Go-Server"
+        mv -f Go-Server tools
+    elif [ $user == "9" ]; then
+        git clone $mygit"Andromeda"
+        mv -f Andromeda tools
+    elif [ $user == "10" ]; then
+        git clone $mygit"RoseKiller"
+        mv -f RoseKiller tools
+    elif [ $user == "11" ]; then
+        git clone $mygit"Malware_Hunter"
+        mv -f Malware_Hunter tools
+    elif [ $user == "12" ]; then
+        git clone $mygit"Termux-Key"
+        mv -f Termux-Key tools
+    elif [ $user == "13" ]; then
+        git clone $mygit"Wikipedia_Search"
+        mv -f Wikipedia_Search tools
+    elif [ $user == "14" ]; then
+        git clone $mygit"IpTracker"
+        mv -f IpTracker tools
+    elif [ $user == "15" ]; then
+        git clone $mygit"Dork-Search"
+        mv -f Dork-Search tools
+    elif [ $user == "16" ]; then
+        git clone $mygit"SocialMedia"
+        mv -f SocialMedia tools
+    elif [ $user == "17" ]; then
+        git clone $mygit"WhoAreYou"
+        mv -f WhoAreYou tools
+    elif [ $user == "18" ]; then
+        git clone $mygit"CSRF-Uploader"
+        mv -f CSRF-Uploader tools
+    elif [ $user == "19" ]; then
+        git clone $mygit"XSS-Exploiter"
+        mv -f XSS-Exploiter tools
+    elif [ $user == "20" ]; then
+        git clone $mygit"KcfinderExploiter"
+        mv -f KcfinderExploiter tools
+    elif [ $user == "21" ]; then
+        git clone $mygit"Infograthering"
+        mv -f Infograthering tools
+    elif [ $user == "22" ]; then
+        git clone $mygit"Cryptography"
+        mv -f Cryptography tools
+    elif [ $user == "23" ]; then
+        git clone $mygit"Base64Encode"
+        mv -f Base64Encode tools
+    elif [ $user == "24" ]; then
+        git clone $mygit"ShellFinder"
+        mv -f ShellFinder tools
+    elif [ $user == "25" ]; then
+        git clone $mygit"TextToBinary"
+        mv -f TextToBinary tools
+    elif [ $user == "26" ]; then
+        git clone $mygit"AdminSearch"
+        mv -f AdminSearch tools
+    elif [ $user == "27" ]; then
+        git clone $mygit"UploadFinder"
+        mv -f UploadFinder tools
+    elif [ $user == "28" ]; then
+        git clone $mygit"MatthewBot"
+        mv -f MatthewBot tools
+    elif [ $user == "29" ]; then
+        git clone $mygit"NetScan"
+        mv -f NetScan tools
+    elif [ $user == "30" ]; then
+        git clone $mygit"F-Dos"
+        mv -f F-Dos tools
+    elif [ $user == "31" ]; then
+        git clone $mygit"HashMaker"
+        mv -f HashMaker tools
+    elif [ $user == "32" ]; then
+        git clone $mygit"GitInform"
+        mv -f GitInform tools
+    elif [ $user == "33" ]; then
+        git clone $mygit"XSploit"
+        mv -f XSploit tools
+    elif [ $user == "34" ]; then
+        git clone $mygit"NetWorkSpoofing"
+        mv -f NetWorkSpoofing tools
+    elif [ $user == "35" ]; then
+        git clone $mygit"MetaBot"
+        mv -f MetaBot tools
+    elif [ $user == "36" ]; then
+        git clone $mygit"CekCuaca"
+        mv -f CekCuaca tools
+    elif [ $user == "37" ]; then
+        git clone $mygit"Sqlbot"
+        mv -f Sqlbot tools
+    elif [ $user == "38" ]; then
+        git clone $mygit"TakeAllRepo"
+        mv -f TakeAllRepo tools
+    elif [ $user == "39" ]; then
+        git clone $mygit"Termux-GUI"
+        mv -f Ternux-GUI tools
+    elif [ $user == "40" ]; then
+        git clone $mygit"Wordpress-Exploit"
+        mv -f Wordpress-Exploit tools
+    elif [ $user == "41" ]; then
+        apt-get install php -y 
+        git clone https://github.com/Tuhinshubhra/RED_HAWK 
+        mv -f RED_HAWK tools
+    elif [ $user == "42" ]; then
+        apt-get install python3 -y
+        git clone https://github.com/sqlmapproject/sqlmap
+        mv -f sqlmap tools
+    elif [ $user == "43" ]; then
+        git clone https://github.com/magnumripper/JohnTheRipper
+        mv -f JohnTheRipper tools
+    elif [ $user == "44" ]; then
+        git clone https://github.com/M4sc3r4n0/Evil-Droid
+        mv -f Evil-Droid tools
+    elif [ $user == "45" ]; then 
+        git clone https://github.com/s0md3v/Striker
+        mv -f Striker tools
+    elif [ $user == "U" ]; then
+        git pull
+        echo -e $green"[+] F-Tools updated";
+    elif [ $user == "0" ]; then
+        echo -e $red"[!] Exit";
+    fi
+    
+}
 
-if [ $bro = 12 ] || [ $bro = 12 ]
-then
-clear
-figlet Installing
-apt update&&apt upgrade -y
-pkg install git -y
-pkg install python2
-git clone https://github.com/Gameye98/APAFI
-cd APAFI
-python2 apafi.py
-fi
+password(){
+    figlet -f smslant "F-Tools" | lolcat
+    echo -e $green"        { Version 2.0 }\n"
 
-if [ $bro = 13 ] || [ $bro = 13 ]
-then
-clear
-figlet Installing
-apt update&&apt upgrade -y
-pkg install git -y
-git clone https://github.com/4L13199/meTAInstall
-mv -f meTAInstall $HOME
-cd meTAInstall
-chmod +x meTAInstall
-sh meTAInstall
-gem install nokogiri -v 1.8.0
-fi
+    echo -e $green"{";
+    echo -e $yellow" Coder : Fajar Firdaus,";
+    echo -e $yellow" FB : ace.of.spades.729,";
+    echo -e $yellow" IG : FajarTheGGman,";
+    echo -e $green"}\n";
 
-if [ $bro = 14 ] || [ $bro = 14 ]
-then
-clear
-figlet Installing
-apt update&&apt upgrade -y
-pkg install git -y
-pkg install python2 -y
-pip2 install bs4 pynac1 requests paramiko
-git clone https://github.com/kuburan/txtool
-cd txtool
-fi
+    echo -e $blue"{ Login Dulu Bro }";
+    echo -e $yellow"Note : Kalo gk tau username & password nya chat gw ";
 
-if [ $bro = 15 ] || [ $bro = 15 ]
-then
-clear
-figlet Installing
-apt update&&apt upgrade -y
-pkg install python2 -y
-pkg install git -y
-git clone https://github.com/unknwhp/HashKiller
-cd HashKiller
-fi
+    read -p "[?] Username ? " user
+    read -p "[?] Password ? " ps
 
-if [ $bro = 16 ] || [ $bro = 16 ]
-then
-clear
-figlet installing
-apt update&&apt upgrade -y
-pkg install git -y
-pkg install python2
-git clone https://github.com/Senitopeng/KomenTarget
-cd KomenTarget
-python2 Komen.py
-fi
+    if [ $user == "fajar" ]; then
+        if [ $ps == "firdaus" ]; then
+            tools
+        else
+            echo -e $red"[!] Username atau password salah";
+        fi
+    else
+        echo -e $red"[!] Username atau password salah";
+    fi
+}
 
-if [ $bro = 17 ] || [ $bro = 17 ]
-then
-clear
-figlet Installing
-apt update&&apt upgrade -y
-pkg install python python2 -y
-pkg install git -y
-git clone https://github.com/Ubaii/script-deface-creator
-cd script-deface-creator
-python2 create.py
-fi
-
-if [ $bro = 18 ] || [ $bro = 18 ]
-then
-clear
-apt update&&apt upgrade -y
-figlet Installing
-pkg install unzip -y
-pkg install wget -y
-wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip
-unzip ngrok-stable-linux-arm.zip
-./ngrok
-fi
-
-if [ $bro = 19 ] || [ $bro = 19 ]
-then
-pkg install wget -y
-termux-setup-storage
-cd /storage/emulated/0
-mkdir F-Tools
-cd F-Tools
-wget --no-check-certificate https://www48.zippyshare.com/d/k0xLFS1v/720/injector.txt
-mv injector.txt injector.apk
-echo "<==================================================>"
-echo "Download Selesai !!!!"
-echo "Tinggal buka memory internal terus buka folder F-Tools"
-echo "<==================================================>"
-fi
-
-if [ $bro = 20 ] || [ $bro = 20 ]
-then
-apt update&&apt upgrade -y
-pkg install git -y
-pkg install python2
-git clone https://github.com/Gameye98/Auxscan
-cd Auxscan
-python2 auxscan.py
-fi
-
-if [ $bro = 21 ] || [ $bro = 21 ]
-then
-clear
-figlet Upfile --gay
-pkg install python2
-pip2 install requests
-python2 upfile.py
-fi
-
-if [ $bro = 22 ] || [ $bro = 22 ]
-then
-clear
-apt-get install python2 git -y
-git clone https://github.com/Hider5/Malicious
-cd Malicious
-chmod 777 malicious.py
-pip2 install -r requirements.txt
-python2 malicious.py
-fi
-
-if [ $bro = 23 ] || [ $bro = 23 ]
-then
-clear
-figlet Installing
-pkg install git -y
-git clone http://github.com/FajarTheGGman/Sqlbot
-cd Sqlbot
-sh sqlbot.sh
-fi
-
-if [ $bro = 24 ] || [ $bro = 24 ]
-then
-clear
-pkg install mpv -y
-read -p "Masukan Directory Musik Lo (contoh : /storage/emulated/0/Musik) :" mpv
-mpv --playlist=$mpv
-fi
-
-if [ $bro = 25 ] || [ $bro = 25 ]
-then
-clear
-pkg install wget -y
-cd ../usr/etc
-rm bash.bashrc
-cd $HOME
-wget https://www73.zippyshare.com/d/WDhnt46q/195/bash.bashrc
-mv bash.bashrc /data/data/com.termux/files/usr/etc
-echo "Done! Sekarang Tinggal Keluar Termux Terus Masuk lagi"
-fi
-
-if [ $asw = 26 ] || [ $asw = 26 ]
-then
-clear
-pkg install git -y
-git clone https://github.com/soracyberteam/simeky-bot
-cd simeky-bot
-php meky.php
-fi
-
-if [ $asw = 27 ] || [ $asw = 27 ]
-then
-clear
-apt-get install git -y
-apt-get install php -y
-git clone https://github.com/FajarTheGGman/IslamPray
-cd IslamPray
-php islam.php
-fi
-
-if [ $bro = C ] || [ $bro = C ]
-then
-xdg-open "https://api.whatsapp.com/send?phone=6285770681226&text=Hai%20Mastah=&data=#"
-fi
-
-if [ $bro = 28 ]
-then
-clear
-apt-get install git -y
-apt-get install php -y
-git clone https://github.com/FajarTheGGman/IslamKiblat
-cd IslamKiblat
-php islamkiblat.php
-fi
-
-if [ $bro = 29 ]
-then
-clear
-apt-get install git -y
-git clone https://github.com/FajarTheGGman/FuckingPentest
-sleep 1
-echo "Username : FuckingPentest"
-echo "Password : fajarfirdaus"
-sleep 1
-cd FuckingPentest
-sh fuckingpentest.sh
-fi
-
-if [ $bro = 30 ]
-then
-clear
-apt-get install git -y
-git clone https://github.com/FajarTheGGman/WLoad
-cd WLoad
-sh WLoad.sh
-fi
-
-if [ $bro = 31 ]
-then
-clear
-apt-get install git -y
-git clone https://github.com/FajarTheGGman/PasTen
-cd PasTen
-sh pasten.sh
-fi
-
-if [ $bro = 32 ]
-then
-clear
-apt-get install git -y
-apt-get install php -y
-git clone https://github.com/FajarTheGGman/TheToxicBot
-sleep 1
-echo $red"Warning Bocah Dilarang Pakek Tools Ink !!!!!!"
-sleep 2
-cd TheToxicBot
-php thetoxicbot.php
-fi
-
-if [ $bro = 33 ]
-then
-clear
-apt-get install git -y
-git clone https://github.com/FajarTheGGman/CekCuaca
-cd CekCuaca
-sh cuaca.sh
-fi
-
-if [ $bro = 34 ]
-then
-clear
-figlet Installing
-apt-get install git php -y
-figlet Installing
-git clone https://github.com/FajarTheGGman/SpamCall
-cd SpamCall
-php spam.php
-fi
-
-if [ $bro = 35 ]
-then
-clear
-figlet Installing
-apt-get install git php -y
-git clone https://github.com/FajarTheGGman/IpTracker
-cd IpTracker
-php ip.php
-fi
-
-if [ $bro = 36 ]
-then
-clear
-figlet Installing
-git clone https://github.com/FajarTheGGman/ProxyPicker
-cd ProxyPicker
-php proxypicker.php
-fi
-
-if [ $bro = 37 ]
-then 
-clear 
-apt-get install curl python2 python -y
-curl https://github.com/FajarTheGGman/fbbrute/blob/master/MBF.py -o MBF.py
-python2 MBF.py
-fi
-
-if [ $bro = 38 ]
-then
-clear
-figlet Installing
-git clone https://github.com/FajarTheGGman/WhoAreYou
-cd WhoAreYou
-sh install.sh
-fi
-
-if [ $bro = 39 ]
-then
-clear
-figlet Installing
-git clone https://github.com/FajarTheGGman/Dork-Search
-apt-get install golang -y
-cd Dork-Search
-sh install.sh
-fi
-
-if [ $bro = 40 ]
-then
-clear 
-figlet Installing
-git clone https://github.com/FajarTheGGman/Cryptography
-cd Cryptography
-sh install.sh
-fi
-
-if [ $bro = 0 ] || [ $bro = 0 ]
-then
-echo "\033[37;1mTerimakasih telah meggunakan tools ini :)"
-sleep 1
-echo "\033[37;1mRecode Gua Bacok Lo !!!!!"
-exit
-fi
+dependencies
+opening
+password
