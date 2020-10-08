@@ -254,7 +254,7 @@ tools(){
         git clone $mygit"Sqlbot"
         mv -f Sqlbot tools
     elif [ $user == "38" ]; then
-        git clone $mygit"TakeAllRepo"
+        git clone $mygit"Take-All-Repo"
         mv -f TakeAllRepo tools
     elif [ $user == "39" ]; then
         git clone $mygit"Termux-GUI"
