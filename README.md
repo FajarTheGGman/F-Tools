@@ -29,7 +29,3 @@ Whats New ?
 - Add new tools
 - New Interface 
 - Simply 
-
-
-# Buy Me Some Coffe :)
-![donate](https://github.com/FajarTheGGman/F-Tools/blob/master/.images/donate.jpeg)
