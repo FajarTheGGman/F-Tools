@@ -137,9 +137,7 @@ tools(){
     echo -e $green "[44] > Evil Droid"
     echo -e $green "[45] > Striker"
     echo -e $red "[0] > Exit"
-    read -p "[?] root@F-Tools-# " user
-
-    mygit="https://github.com/FajarTheGGman/"
+    read -p 
 
     if [ $user == "1" ]; then
         echo "";
