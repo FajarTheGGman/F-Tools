@@ -1,5 +1,5 @@
 #!/system/bin/bash
-#Copyright© 2020 By Fajar Firdaus
+#Copyright© 2020 rofix sontovir
 blue='\033[34;1m'
 green='\033[32;1m'
 purple='\033[35;1m'
@@ -304,8 +304,8 @@ password(){
     read -p "[?] Username ? " user
     read -p "[?] Password ? " ps
 
-    if [ $user == "fajar" ]; then
-        if [ $ps == "firdaus" ]; then
+    if [ $user == "wafa" ]; then
+        if [ $ps == "hanan" ]; then
             tools
         else
             echo -e $red"[!] Username atau password wafa";
