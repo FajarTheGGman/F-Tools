@@ -289,13 +289,13 @@ tools(){
 }
 
 password(){
-    figlet -f smslant "F-Tools" | lolcat
+    figlet -f smslant "Rofix" | lolcat
     echo -e $green"        { Version 2.0 }\n"
 
     echo -e $green"{";
-    echo -e $yellow" Coder : Fajar Firdaus,";
+    echo -e $yellow" Coder : wafa hanan,";
     echo -e $yellow" FB : ace.of.spades.729,";
-    echo -e $yellow" IG : FajarTheGGman,";
+    echo -e $yellow" IG : rofixTheGGman,";
     echo -e $green"}\n";
 
     echo -e $blue"{ Login Dulu Bro }";
@@ -308,10 +308,10 @@ password(){
         if [ $ps == "firdaus" ]; then
             tools
         else
-            echo -e $red"[!] Username atau password salah";
+            echo -e $red"[!] Username atau password wafa";
         fi
     else
-        echo -e $red"[!] Username atau password salah";
+        echo -e $red"[!] Username atau password wafa";
     fi
 }
 
