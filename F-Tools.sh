@@ -1,5 +1,5 @@
 #!/system/bin/bash
-#Copyright© 2020 By Fajar Firdaus
+#Copyright© 2020 rofix sontovir
 blue='\033[34;1m'
 green='\033[32;1m'
 purple='\033[35;1m'
@@ -137,9 +137,7 @@ tools(){
     echo -e $green "[44] > Evil Droid"
     echo -e $green "[45] > Striker"
     echo -e $red "[0] > Exit"
-    read -p "[?] root@F-Tools-# " user
-
-    mygit="https://github.com/FajarTheGGman/"
+    read -p 
 
     if [ $user == "1" ]; then
         echo "";
@@ -289,13 +287,13 @@ tools(){
 }
 
 password(){
-    figlet -f smslant "F-Tools" | lolcat
+    figlet -f smslant "Rofix" | lolcat
     echo -e $green"        { Version 2.0 }\n"
 
     echo -e $green"{";
-    echo -e $yellow" Coder : Fajar Firdaus,";
+    echo -e $yellow" Coder : wafa hanan,";
     echo -e $yellow" FB : ace.of.spades.729,";
-    echo -e $yellow" IG : FajarTheGGman,";
+    echo -e $yellow" IG : rofixTheGGman,";
     echo -e $green"}\n";
 
     echo -e $blue"{ Login Dulu Bro }";
@@ -304,14 +302,14 @@ password(){
     read -p "[?] Username ? " user
     read -p "[?] Password ? " ps
 
-    if [ $user == "fajar" ]; then
-        if [ $ps == "firdaus" ]; then
+    if [ $user == "wafa" ]; then
+        if [ $ps == "hanan" ]; then
             tools
         else
-            echo -e $red"[!] Username atau password salah";
+            echo -e $red"[!] Username atau password wafa";
         fi
     else
-        echo -e $red"[!] Username atau password salah";
+        echo -e $red"[!] Username atau password wafa";
     fi
 }
 
